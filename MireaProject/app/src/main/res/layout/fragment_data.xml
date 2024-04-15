@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_menu_gallery" />
+
+        <TextView
+            android:id="@+id/companyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GameDev"
+            android:textSize="24sp"
+            android:textColor="#6200EE" />
+
+        <TextView
+            android:id="@+id/companyInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unity — кроссплатформенная среда разработки компьютерных игр, разработанная американской компанией Unity Technologies."
+            android:textSize="16sp"
+            android:textColor="#3700B3"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
