@@ -30,5 +30,20 @@
             android:id="@+id/workerFragment"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Worker" />
+
+        <item
+            android:id="@+id/CompassFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Compass" />
+
+        <item
+            android:id="@+id/CameraFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Camera" />
+
+        <item
+            android:id="@+id/MicroPhoneFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Microphone" />
     </group>
 </menu>

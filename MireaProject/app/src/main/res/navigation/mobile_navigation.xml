@@ -40,4 +40,24 @@
         android:name="ru.mirea.afanaseviv.mireaproject.WorkerFragment"
         android:label="fragment_worker"
         tools:layout="@layout/fragment_worker" />
+
+    <fragment
+        android:id="@+id/CompassFragment"
+        android:name="ru.mirea.afanaseviv.mireaproject.CompassFragment"
+        android:label="fragment_compass"
+        tools:layout="@layout/fragment_compass" />
+
+    <fragment
+        android:id="@+id/CameraFragment"
+        android:name="ru.mirea.afanaseviv.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/MicroPhoneFragment"
+        android:name="ru.mirea.afanaseviv.mireaproject.MicroPhoneFragment"
+        android:label="fragment_micro_phone"
+        tools:layout="@layout/fragment_micro_phone" />
+
+
 </navigation>
