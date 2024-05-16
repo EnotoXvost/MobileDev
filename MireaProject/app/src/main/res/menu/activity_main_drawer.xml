@@ -45,5 +45,22 @@
             android:id="@+id/MicroPhoneFragment"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Microphone" />
+
+        <item
+            android:id="@+id/ProfileFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/WorkWithFileFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="File" />
+
+        <item
+            android:id="@+id/WeatherFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Weather" />
+
+
     </group>
 </menu>

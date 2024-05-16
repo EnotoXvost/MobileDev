@@ -59,5 +59,26 @@
         android:label="fragment_micro_phone"
         tools:layout="@layout/fragment_micro_phone" />
 
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="ru.mirea.afanaseviv.mireaproject.ProfileFragment"
+        android:label="fragment_micro_phone"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/WeatherFragment"
+        android:name="ru.mirea.afanaseviv.mireaproject.WeatherFragment"
+        android:label="fragment_weather"
+        tools:layout="@layout/fragment_weather" />
+
+    <fragment
+        android:id="@+id/WorkWithFileFragment"
+        android:name="ru.mirea.afanaseviv.mireaproject.WorkWithFileFragment"
+        android:label="fragment_micro_phone"
+        tools:layout="@layout/fragment_work_with_file" />
+
+
+
+
 
 </navigation>
