@@ -61,6 +61,11 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Weather" />
 
+        <item
+            android:id="@+id/MapFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Map" />
+
 
     </group>
 </menu>

@@ -12,20 +12,27 @@
 
     <Button
         android:id="@+id/read_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Прочитать файл"
+        android:layout_width="198dp"
+        android:layout_height="62dp"
         android:layout_below="@id/input_field"
-        android:layout_marginTop="16dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="555dp"
+        android:text="Прочитать файл" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_button"
-        android:layout_width="wrap_content"
+        android:layout_width="99dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_margin="16dp"
-        android:src="@drawable/ic_menu_slideshow"
-        android:contentDescription="Сохранить с шифрованием"/>
+        android:layout_marginStart="312dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="565dp"
+        android:contentDescription="Сохранить с шифрованием" />
 
 </RelativeLayout>

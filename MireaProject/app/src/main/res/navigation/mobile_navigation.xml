@@ -74,8 +74,14 @@
     <fragment
         android:id="@+id/WorkWithFileFragment"
         android:name="ru.mirea.afanaseviv.mireaproject.WorkWithFileFragment"
-        android:label="fragment_micro_phone"
+        android:label="fragment_work_with_file"
         tools:layout="@layout/fragment_work_with_file" />
+
+    <fragment
+        android:id="@+id/MapFragment"
+        android:name="ru.mirea.afanaseviv.mireaproject.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
 
 
 
